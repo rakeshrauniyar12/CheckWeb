@@ -1,0 +1,168 @@
+.loginContainer {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: hsl(212, 27%, 10%);
+  padding-top: 80px;
+}
+.loginContainer > .loginContainerHeader {
+  width: 100%;
+  height: 310px;
+  background-color: #979aa0;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.loginContainer > .loginContainerHeader > .loginContainerHeaderTop {
+  width: max-content;
+  padding: 15px 38px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginContainer
+  > .loginContainerHeader
+  > .loginContainerHeaderTop
+  > .rectangle {
+  width: 10px;
+  height: 18px;
+  background-color: #ff0000;
+  transform: skew(-20deg);
+  margin-right: 15px;
+}
+.loginContainer > .loginContainerHeader > .loginContainerHeaderTop > p {
+  font-size: 16px;
+}
+.registerLoginFormContainer {
+  width: 100%;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: row;
+}
+.registerLoginFormContainer > div {
+  width: 48%;
+  height: fit-content;
+}
+.registerLoginFormContainer > div > h1 {
+  font-size: 3rem;
+  color: white;
+}
+.registerLoginFormContainer > div > .loginFormContainer {
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 25px;
+}
+.registerLoginFormContainer > div > .loginFormContainer > label {
+  color: white;
+  font-weight: 200;
+}
+.registerLoginFormContainer > div > .loginFormContainer > input {
+  width: 100%;
+  margin-top: 50px;
+  height: 45px;
+  border: none;
+  outline: none;
+  margin-bottom: 18px;
+  padding-left: 14px;
+}
+.registerLoginFormContainer > div > .loginFormContainer > .rememberMeDiv {
+  display: flex;
+  align-items: center;
+}
+.registerLoginFormContainer
+  > div
+  > .loginFormContainer
+  > .rememberMeDiv
+  > .checkboxRememberme {
+  width: 12px;
+  margin-right: 10px;
+}
+.registerLoginFormContainer > div > .loginFormContainer > .rememberMeDiv > p {
+  color: white;
+}
+
+.registerLoginFormContainer > div > .loginFormContainer > button {
+  padding: 15px 30px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.registerLoginFormContainer > div > .loginFormContainer > button:hover {
+  background-color: red;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.registerLoginFormContainer > div > .loginFormContainer > .lostYouPassword {
+  color: red;
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
+
+.registerLoginFormContainer > div > .registerFormContainer {
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.registerLoginFormContainer > div > .registerFormContainer > label {
+  color: white;
+  font-weight: 200;
+}
+.registerLoginFormContainer > div > .registerFormContainer > input {
+  width: 100%;
+  margin-top: 50px;
+  height: 45px;
+  border: none;
+  outline: none;
+  margin-bottom: 18px;
+  padding-left: 14px;
+}
+.registerLoginFormContainer > div > .registerFormContainer > .rememberMeDiv {
+  display: flex;
+  align-items: center;
+}
+.registerLoginFormContainer
+  > div
+  > .registerFormContainer
+  > .rememberMeDiv
+  > .checkboxRememberme {
+  width: 12px;
+  margin-right: 10px;
+}
+.registerLoginFormContainer > div > .registerFormContainer > p {
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 200;
+  line-height: 45px;
+}
+
+.registerLoginFormContainer > div > .registerFormContainer > button {
+  padding: 15px 30px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.registerLoginFormContainer > div > .registerFormContainer > button:hover {
+  background-color: red;
+  border: 1px solid red;
+  cursor: pointer;
+}

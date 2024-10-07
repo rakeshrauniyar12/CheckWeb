@@ -1,0 +1,117 @@
+.libraryContainer {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: hsl(212, 27%, 10%);
+  padding-top: 80px;
+}
+.libraryContainer > .libraryHeader {
+  width: 100%;
+  height: 310px;
+  background-color: #979aa0;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.libraryContainer > .libraryHeader > .libraryHeaderTop {
+  width: max-content;
+  padding: 15px 38px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.libraryContainer > .libraryHeader > .libraryHeaderTop > .rectangle {
+  width: 10px;
+  height: 18px;
+  background-color: #ff0000;
+  transform: skew(-20deg);
+  margin-right: 15px;
+}
+.libraryContainer > .libraryHeader > .libraryHeaderTop > p {
+  font-size: 16px;
+}
+.libraryContainer > .libraryHeader > .libraryHeaderBottom {
+  width: 72%;
+  background-color: white;
+  padding: 20px 30px;
+}
+.libraryContainer > .libraryHeader > .libraryHeaderBottom > h1 {
+  font-size: 3rem;
+  line-height: 60px;
+}
+
+.libraryContainer > .libraryBooksContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.libraryContainer > .libraryBooksContainer > .bookDiv {
+  width: 25%;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.libraryContainer > .libraryBooksContainer > .bookDiv > .bookDivTop {
+  width: 100%;
+  height: 320px;
+}
+.libraryContainer > .libraryBooksContainer > .bookDiv > .bookDivTop > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.libraryContainer > .libraryBooksContainer > .bookDiv > .bookDivBottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.libraryContainer
+  > .libraryBooksContainer
+  > .bookDiv
+  > .bookDivBottom
+  > .bookTitle {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+.libraryContainer
+  > .libraryBooksContainer
+  > .bookDiv
+  > .bookDivBottom
+  > .bookCost {
+  color: red;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+}
+.libraryContainer
+  > .libraryBooksContainer
+  > .bookDiv
+  > .bookDivBottom
+  > .BookDownloadOrBuyBtn {
+  width: auto;
+  height: auto;
+  padding: 16px 32px;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  background-color: transparent;
+}
+.libraryContainer
+  > .libraryBooksContainer
+  > .bookDiv
+  > .bookDivBottom
+  > .BookDownloadOrBuyBtn:hover {
+  background-color: red;
+  cursor: pointer;
+  border: 1px solid red;
+}

@@ -1,0 +1,50 @@
+.coursesContainer {
+  width: 100%;
+  padding: 80px 80px 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #12181f;
+}
+.coursesContainer > .courseDiv {
+  width: 32%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #222a34;
+}
+.coursesContainer > .courseDiv > img {
+  width: 100%;
+}
+.coursesContainer > .courseDiv > h2 {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 600;
+  padding: 20px;
+}
+.coursesContainer > .courseDiv > .bottomOfCourse {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.coursesContainer > .courseDiv > .bottomOfCourse > p {
+  color: white;
+}
+.coursesContainer > .courseDiv > .bottomOfCourse > button {
+  background-color: #ff0000;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
